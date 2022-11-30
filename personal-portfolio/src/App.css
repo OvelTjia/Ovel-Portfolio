@@ -371,15 +371,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 10px auto 10px 180px;
   width: 80%;
 }
+
+.gitLogo {
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
 .gitLogo svg {
   width: 4em;
   height: 4em;
   border-radius: 20px;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  margin-left: 12vw;
+}
+.gitLogo:hover {
+  transform: scale(1.05);
 }
 
 .profil ul {
